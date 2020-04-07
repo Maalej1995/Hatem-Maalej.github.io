@@ -6,6 +6,7 @@ var bodyDiv = document.getElementById("bodyDiv");
 var playPromise = video.play();
 
 if (playPromise !== undefined) {
+  sound();
   playPromise.then(_ => {})
   .catch(error => {});
   video.addEventListener("ended", function() {
