@@ -265,7 +265,7 @@ body {
   outline: transparent;
   color: #ffffff;
   text-align: center;
-  font-size: 200%;
+  font-size: 3vw;
   padding: 20px;
   width: 10%;
   transition: all 0.5s;
@@ -361,7 +361,7 @@ body {
 
 .identitySpan {
   position: fixed;
-  font-size: 400%;
+  font-size: 4vw;
   /* top: 40%; */
   animation-name: example;
   animation-duration: 2s;
@@ -489,7 +489,7 @@ body {
 #langWord {
   position: relative;
   color: white;
-  font-size: 300%;
+  font-size: 3vw;
   margin-top: auto;
   margin-bottom: 50px;
 }
