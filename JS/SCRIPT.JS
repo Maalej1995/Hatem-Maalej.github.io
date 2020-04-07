@@ -8,7 +8,6 @@ var playPromise = video.play();
 if (playPromise !== undefined) {
   playPromise.then(_ => {})
   .catch(error => {});
-  sound();
   video.addEventListener("ended", function() {
     window.location.href = "./ABOUT.HTML";
   });
