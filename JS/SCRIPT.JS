@@ -3,25 +3,28 @@ var soundBtn = document.getElementById("soundBtn");
 var forwardBtn = document.getElementById("forwardBtn");
 var bodyDiv = document.getElementById("bodyDiv");
 
-// if (location.href == "./HOME.HTML") {
-//   video.play();
-//   video.addEventListener("ended", function() {
-//     window.location.href = "./ABOUT.HTML";
-//   });
-// }
+var playPromise = video.play();
 
-if (video != null) {
-  video.play();
-  if (video.paused) {
-    video.play();
-  }
-  if (video.muted) {
-    sound();
-  }
+if (playPromise !== undefined) {
+  playPromise.then(_ => {})
+  .catch(error => {});
   video.addEventListener("ended", function() {
     window.location.href = "./ABOUT.HTML";
   });
 }
+
+// if (video != null) {
+//   video.play();
+//   if (video.paused) {
+//     video.play();
+//   }
+//   if (video.muted) {
+//     sound();
+//   }
+//   video.addEventListener("ended", function() {
+//     window.location.href = "./ABOUT.HTML";
+//   });
+// }
 
 function sound() {
   if (video.muted) {
