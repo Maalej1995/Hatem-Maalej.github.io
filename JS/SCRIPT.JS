@@ -4,6 +4,12 @@ var forwardBtn = document.getElementById("forwardBtn");
 var bodyDiv = document.getElementById("bodyDiv");
 
 if (video != null) {
+    video.oncanplaythrough = function() {
+        video.muted = true;
+        video.play();
+        video.pause();
+        video.play();
+    }
   video.addEventListener("ended", function() {
     window.location.href = "./ABOUT.HTML";
   });
