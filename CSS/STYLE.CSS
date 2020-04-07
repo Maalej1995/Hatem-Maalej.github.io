@@ -404,7 +404,7 @@ body {
   width: 30%;
   height: 200px;
   margin: 10px;
-  background-image: url("../res/certif.png");
+  background-image: url("../RES/certif.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -417,7 +417,7 @@ body {
   width: 30%;
   height: 200px;
   margin: 10px;
-  background-image: url("../res/prog.jpg");
+  background-image: url("../RES/prog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -430,7 +430,7 @@ body {
   width: 30%;
   height: 200px;
   margin: 10px;
-  background-image: url("../res/soft.jpg");
+  background-image: url("../RES/soft.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
