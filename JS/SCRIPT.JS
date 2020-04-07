@@ -15,7 +15,9 @@ if (video != null) {
   if (video.paused) {
     video.play();
   }
-  sound();
+  if (video.muted) {
+    sound();
+  }
   video.addEventListener("ended", function() {
     window.location.href = "./ABOUT.HTML";
   });
