@@ -3,7 +3,9 @@ var soundBtn = document.getElementById("soundBtn");
 var forwardBtn = document.getElementById("forwardBtn");
 var bodyDiv = document.getElementById("bodyDiv");
 
-var playPromise = video.play();
+if (video != null) {
+  var playPromise = video.play();
+}
 
 if (playPromise !== undefined) {
   playPromise.then(_ => {})
