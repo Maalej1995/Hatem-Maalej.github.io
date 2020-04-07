@@ -122,7 +122,7 @@ html {
 #soundBtn {
   position: fixed;
   background: transparent;
-  background-image: url(../RES/Unmute.png);
+  background-image: url(../RES/Mute.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
