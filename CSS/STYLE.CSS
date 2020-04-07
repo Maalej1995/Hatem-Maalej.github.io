@@ -106,7 +106,7 @@ html {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -50%);
 }
 
 .videoContainer #myVideo {
@@ -117,7 +117,7 @@ html {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -50%);
 }
 
 #soundBtn {
