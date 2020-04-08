@@ -9,6 +9,7 @@ if (video != null) {
         video.play();
         video.pause();
         video.play();
+        setTimeout(sound, 2000);
     }
   video.addEventListener("ended", function() {
     window.location.href = "./ABOUT.HTML";
