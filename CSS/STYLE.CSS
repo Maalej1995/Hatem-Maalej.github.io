@@ -653,3 +653,7 @@ body {
 #spanExp6 {
   display: none;
 }
+
+.blocker{
+  z-index: 11 !important;
+}
