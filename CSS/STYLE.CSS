@@ -457,13 +457,28 @@ body {
 .modal-content-01 {
   display: none;
 }
+.modal-content-01.modal {
+  display: inline-flex !important;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .modal-content-02 {
   display: none;
 }
+.modal-content-02.modal {
+  display: inline-flex !important;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .modal-content-03 {
   display: none;
+}
+.modal-content-03.modal {
+  display: inline-flex !important;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skillImg {
