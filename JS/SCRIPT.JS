@@ -1,21 +1,20 @@
 var video = document.getElementById("myVideo");
+var playBtn = document.getElementById("playBtn");
 var soundBtn = document.getElementById("soundBtn");
 var forwardBtn = document.getElementById("forwardBtn");
 var bodyDiv = document.getElementById("bodyDiv");
 
 if (video != null) {
-    video.oncanplaythrough = function() {
-        video.muted = true;
-        video.play();
-        video.pause();
-        video.play();
-        if (video.paused==false){
-            setTimeout(sound, 2000);
-        }
-    }
-  video.addEventListener("ended", function() {
+  video.addEventListener("ended", function () {
     window.location.href = "./ABOUT.HTML";
   });
+}
+
+function playVideo() {
+  video.play();
+  video.muted = false;
+  soundBtn.style.backgroundImage = "url('../RES/Unmute.png')";
+  playBtn.style.display = "none";
 }
 
 function sound() {
