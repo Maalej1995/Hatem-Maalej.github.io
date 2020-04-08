@@ -280,10 +280,6 @@ body {
   left: 0.5%;
 }
 
-.toggleBtn:hover {
-  opacity: 1;
-}
-
 .toggleBtn span {
   cursor: pointer;
   display: inline-block;
@@ -296,12 +292,12 @@ body {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -2vw;
   transition: 0.5s;
 }
 
 .toggleBtn:hover span {
-  padding-right: 25px;
+  padding-right: 2.5vw;
   color: rgb(250, 95, 75);
 }
 
