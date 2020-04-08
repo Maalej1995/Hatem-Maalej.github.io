@@ -137,6 +137,25 @@ html {
   cursor: pointer;
 }
 
+#playBtn {
+  position: fixed;
+  background: transparent;
+  background-image: url(../RES/play.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  top: 70%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 #forwardBtn {
   position: fixed;
   background: transparent;
